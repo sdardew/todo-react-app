@@ -7,6 +7,7 @@ class Todo extends React.Component {
         super(props);
         this.state = {item: props.item, readOnly: true};
         this.delete = props.delete;
+        this.update = props.update;
     }
 
     deleteEventHandler = () => {
